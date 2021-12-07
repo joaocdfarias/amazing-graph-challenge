@@ -39,3 +39,18 @@
   margin-left: auto;
   margin-top: 16px;
 }
+
+@media (max-width: 360px) {
+  .hero {
+    flex-direction: column-reverse;
+  }
+
+  .hero-text {
+    position: relative;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 48px;
+  }
+}
