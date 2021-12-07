@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.logo {
+  color: #d2872c;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+header ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+header ul li a {
+  color: #766f68;
+  font-size: 24px;
+  font-weight: 500;
+}
